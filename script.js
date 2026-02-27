@@ -1,5 +1,5 @@
 // ===== DATA =====
-var WHATSAPP_NUMBER = '556999077267';
+var WHATSAPP_NUMBER = '5569993775932';
 var WHATSAPP_MESSAGE = 'Olá! Gostaria de fazer um pedido na Federal Burger! 🍔';
 
 function getWhatsappLink(item) {
@@ -438,3 +438,4 @@ function sendOrder() {
 
   window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg), '_blank');
 }
+
